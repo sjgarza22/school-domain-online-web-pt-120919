@@ -22,4 +22,9 @@ class School
     @roster[num]
   end
   
+  def sort
+    @roster.each(|key, array| array.sort)
+    @roster
+  end
+  
 end
